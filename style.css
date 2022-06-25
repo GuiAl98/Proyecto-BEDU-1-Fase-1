@@ -6,13 +6,18 @@ body{
 
 h1{
     text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
     color: #025157;
+    margin-bottom: 10px;
 }
 
-p{
+.main p{
     color: #8b8b8bcc;
-    font-family: Verdana, sans-serif;
+    font-family: 'Slabo 27px', serif;    
     font-size: 20px;
+    font-weight: 400;
 }
 
 button{
@@ -49,7 +54,7 @@ button{
 
 .navbar{
     width: 70%;
-    text-align: left;
+    text-align: center;
     color: #025157;
     font-weight: 500;
 }
@@ -75,6 +80,56 @@ button{
 }
 
 .main{
-    margin-top: 40px;
+    margin-top: 285px;
     text-align: center;
+}
+
+.pre-form{
+    color: #025157 !important;
+}
+
+h2{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #025157;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.article{
+    color: #343434;
+}
+
+.main-text{
+    font-family: 'Slabo 27px', serif;
+    color: #46484c !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+}
+
+.promo{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 100px auto;
+    column-gap: 20px;
+}
+
+.explain-video{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.explain-video img{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
